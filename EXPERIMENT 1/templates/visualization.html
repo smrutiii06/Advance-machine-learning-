@@ -1,0 +1,29 @@
+<!doctype html>
+<html>
+  <head>
+    <title>Visualization</title>
+
+    <link
+      rel="stylesheet"
+      href="{{ url_for('static', filename='style.css') }}"
+    />
+  </head>
+
+  <body>
+    <h1>Machine Learning Visualization</h1>
+
+    <h2>Regression Graph</h2>
+
+    <img src="{{ url_for('static', filename='regression.png') }}" width="650" />
+
+    <hr />
+
+    <h2>Evaluation Metrics</h2>
+
+    <img src="{{ url_for('static', filename='metrics.png') }}" width="650" />
+
+    <br /><br />
+
+    <a href="/">⬅ Back to Home</a>
+  </body>
+</html>

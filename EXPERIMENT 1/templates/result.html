@@ -1,0 +1,39 @@
+<!doctype html>
+<html>
+  <head>
+    <title>Linear Regression Result</title>
+
+    <link
+      rel="stylesheet"
+      href="{{ url_for('static', filename='style.css') }}"
+    />
+  </head>
+
+  <body>
+    <h1>Machine Learning Algorithm Visualizer</h1>
+
+    <h2>Linear Regression Result</h2>
+
+    <hr />
+
+    <h3>Algorithm : {{algorithm}}</h3>
+
+    <h3>Slope : {{slope}}</h3>
+
+    <h3>Intercept : {{intercept}}</h3>
+
+    <h3>Regression Equation : {{equation}}</h3>
+
+    <h3>MSE : {{mse}}</h3>
+
+    <h3>MAE : {{mae}}</h3>
+
+    <h3>RMSE : {{rmse}}</h3>
+
+    <h3>R² Score : {{r2}}</h3>
+
+    <br />
+
+    <a href="/">⬅ Go Back</a>
+  </body>
+</html>

@@ -1,0 +1,106 @@
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background: #e8f5e9;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+h1 {
+  color: #1b5e20;
+  font-size: 40px;
+  font-weight: bold;
+  margin-top: 30px;
+  text-transform: uppercase;
+}
+
+h2 {
+  color: #2e7d32;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+h3 {
+  color: #1b1b1b;
+  font-size: 22px;
+  font-weight: bold;
+}
+
+form {
+  background: white;
+  width: 550px;
+  margin: 30px auto;
+  padding: 30px;
+  border-radius: 15px;
+  box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+label {
+  font-size: 20px;
+  font-weight: bold;
+  color: #1b5e20;
+}
+
+input,
+select {
+  width: 90%;
+  padding: 12px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  font-size: 17px;
+  border-radius: 8px;
+  border: 2px solid #81c784;
+}
+
+input:focus,
+select:focus {
+  border-color: #2e7d32;
+  outline: none;
+}
+
+button {
+  background: #2e7d32;
+  color: white;
+  font-size: 18px;
+  font-weight: bold;
+  padding: 12px 25px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  margin: 10px;
+  transition: 0.3s;
+}
+
+button:hover {
+  background: #1b5e20;
+  transform: scale(1.05);
+}
+
+img {
+  width: 700px;
+  max-width: 90%;
+  border-radius: 10px;
+  border: 3px solid #2e7d32;
+  margin-top: 20px;
+}
+
+a {
+  text-decoration: none;
+}
+
+hr {
+  width: 80%;
+  border: 1px solid #a5d6a7;
+}
+
+p {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap');
+*{font-family:'Poppins',sans-serif!important;}
+body{background:linear-gradient(135deg,#ff5fa2,#ffc1e3)!important;}
+.container,.card,form{background:rgba(255,255,255,.2)!important;backdrop-filter:blur(10px);border-radius:16px;}
+button,.btn{background:linear-gradient(90deg,#ff4f9a,#ff86c8)!important;color:#fff!important;border:none!important;border-radius:10px!important;}
+input,select{border-radius:10px!important;}
